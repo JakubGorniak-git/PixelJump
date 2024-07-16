@@ -13,7 +13,7 @@ void render(sf::RenderWindow& window, Player& player, sf::RectangleShape& wall, 
     player.draw(window);
     window.display();
 }
-
+//wiktor glupoty gada
 int main() {
     sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "MyGame!");
 
