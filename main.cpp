@@ -16,6 +16,7 @@ void render(sf::RenderWindow& window, Player& player, sf::RectangleShape& wall, 
 //wiktor glupoty gada
 //sobie robimy koljeny test
 //jnjjn
+//test
 int main() {
     sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "MyGame!");
 
