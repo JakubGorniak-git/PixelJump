@@ -14,6 +14,7 @@ void render(sf::RenderWindow& window, Player& player, sf::RectangleShape& wall, 
     window.display();
 }
 //wiktor glupoty gada
+//sobie robimy koljeny test
 int main() {
     sf::RenderWindow window(sf::VideoMode(WINDOW_WIDTH, WINDOW_HEIGHT), "MyGame!");
 
