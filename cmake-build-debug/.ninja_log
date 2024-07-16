@@ -1,3 +1,9 @@
 # ninja log v5
 556	676	7428489495256426	project.exe	3402a151fc4dbc03
 4	555	7428489494165522	CMakeFiles/project.dir/main.cpp.obj	a2a3b1b1514da202
+17	123	7428725882970159	CMakeFiles/project.dir/player.cpp.obj	7bee23f36945caf8
+5	1042	7428725968790103	CMakeFiles/project.dir/main.cpp.obj	a2a3b1b1514da202
+1043	1258	7428725970773663	project.exe	6401a5eaf8d8872b
+17	1075	7428730875730674	CMakeFiles/project.dir/player.cpp.obj	7bee23f36945caf8
+7	1112	7428730876102242	CMakeFiles/project.dir/main.cpp.obj	a2a3b1b1514da202
+1113	1331	7428730878133967	project.exe	6401a5eaf8d8872b
