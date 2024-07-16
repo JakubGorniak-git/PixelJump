@@ -19,3 +19,4 @@ add_executable(project main.cpp
 target_link_libraries(project sfml-system sfml-window sfml-graphics sfml-network sfml-audio)
 
 #testujemy wkp
+#testv2
