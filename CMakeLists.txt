@@ -11,7 +11,8 @@ include_directories("C:/SFML/include")
 find_package(SFML REQUIRED COMPONENTS system window graphics network audio)
 
 # Add the executable
-add_executable(project main.cpp)
+add_executable(project main.cpp
+        player.h)
 
 # Link SFML libraries
 target_link_libraries(project sfml-system sfml-window sfml-graphics sfml-network sfml-audio)
