@@ -3,7 +3,7 @@
 
 float WINDOW_WIDTH = 800.0f;
 float WINDOW_HEIGHT = 600.0f;
-sf::Vector2f WALL_SIZE(100.0f, 300.0f);
+sf::Vector2f WALL_SIZE(100.0f, 100.0f);
 
 void render(sf::RenderWindow& window, Player& player, sf::RectangleShape& wall, sf::RectangleShape& wall_2, sf::Sprite& background) {
     window.clear();
@@ -50,7 +50,7 @@ int main() {
         }
 
         player.handleInput(deltaTime);
-        player.updatePosition(WINDOW_WIDTH, 700.0f, WALL_SIZE.x);
+        player.updatePosition(WINDOW_WIDTH, 700.0f, WALL_SIZE.x, deltaTime);
         render(window, player, wall, wall_2, background);
     }
 
